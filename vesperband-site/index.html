@@ -208,7 +208,7 @@
   @keyframes drawWave { to { stroke-dashoffset: 0; } }
 
   .hero__lede {
-    max-width: 720px; font-size: clamp(20px, 2.2vw, 26px);
+    max-width: 800px; font-size: clamp(20px, 2.2vw, 26px);
     line-height: 1.4; color: var(--paper-dim); margin-bottom: 48px; font-weight: 400;
   }
   .hero__lede .strong { color: var(--paper); font-weight: 600; }
@@ -397,7 +397,7 @@
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
   }
-  .marquee__item {
+  .marquee__item.marquee__item--exact { text-transform: none; }  .marquee__item {
     font-family: 'Anton', sans-serif; font-size: 48px;
     letter-spacing: 0.04em; text-transform: uppercase;
     display: flex; align-items: center; gap: 56px;
@@ -921,7 +921,7 @@
     </svg>
 
     <p class="hero__lede reveal">
-      Five-piece <span class="strong">rock and indie covers band</span> from the East Midlands. Two hours, thirty-odd songs, mostly <span class="strong">80s, 90s and 00s</span>.
+      Five-piece <span class="strong">rock and indie covers band</span> from the East&nbsp;Midlands. Two hours, thirty-odd songs, mostly <span class="strong">80s, 90s and 00s</span>.
     </p>
 
     <div class="hero__cta-row reveal">
@@ -1003,16 +1003,16 @@
   <div class="marquee__track">
     <span class="marquee__item">Rock</span>
     <span class="marquee__item">Indie</span>
-    <span class="marquee__item">80s Anthems</span>
-    <span class="marquee__item">90s Classics</span><span class="marquee__item">00s Hits</span>
+    <span class="marquee__item marquee__item--exact">80s ANTHEMS</span>
+    <span class="marquee__item marquee__item--exact">90s CLASSICS</span><span class="marquee__item marquee__item--exact">00s HITS</span>
     <span class="marquee__item">Pubs</span>
     <span class="marquee__item">Weddings</span>
     <span class="marquee__item">Functions</span>
     <span class="marquee__item">Festivals</span>
     <span class="marquee__item">Rock</span>
     <span class="marquee__item">Indie</span>
-    <span class="marquee__item">80s Anthems</span>
-    <span class="marquee__item">90s Classics</span><span class="marquee__item">00s Hits</span>
+    <span class="marquee__item marquee__item--exact">80s ANTHEMS</span>
+    <span class="marquee__item marquee__item--exact">90s CLASSICS</span><span class="marquee__item marquee__item--exact">00s HITS</span>
     <span class="marquee__item">Pubs</span>
     <span class="marquee__item">Weddings</span>
     <span class="marquee__item">Functions</span>
