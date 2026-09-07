@@ -36,7 +36,7 @@
   }
 
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
+  html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; overflow-x: hidden; overflow-x: clip; }
   body {
     background: var(--ink);
     color: var(--paper);
@@ -679,7 +679,7 @@
   #venues {
     background: var(--paper); color: var(--ink);
     padding: 50px 0;
-    border-top: 2px solid var(--ink); border-bottom: 2px solid var(--ink); overflow: hidden;
+    border-top: 2px solid var(--ink); border-bottom: 2px solid var(--ink);
     /* Force GPU compositing on the container */
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
